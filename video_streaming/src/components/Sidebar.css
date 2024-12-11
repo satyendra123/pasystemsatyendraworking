@@ -1,0 +1,20 @@
+.list-group a:hover{
+  background-color: blue;
+  color:white;
+  cursor: pointer;
+}
+.custom-h-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  font-family: Arial, sans-serif;
+  color: #fff; /* Text color (white) */
+  background-color: black; /* Background color (black) */
+  border-radius: 50%; /* Makes the element a circle */
+  width: 40px; /* Adjust the width of the circle */
+  height: 40px; /* Adjust the height of the circle */
+  line-height: 40px; /* Align the "H" vertically */
+  text-align: center; /* Center-align the text */
+  font-size: 20px; /* Adjust the font size */
+}

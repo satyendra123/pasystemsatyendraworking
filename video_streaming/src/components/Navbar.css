@@ -1,0 +1,15 @@
+/* Ensure dropdown stays within the viewport */
+.navbar .dropdown-menu {
+    position: absolute;
+    right: 0;
+    left: auto;
+    transform: translate3d(0, 40px, 0); /* Adjusts the dropdown position */
+    top: 13%;
+    will-change: transform;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Prevent overflow and hide scrollbars */
+body {
+    overflow-x: hidden; /* Hide horizontal scrollbar */
+}
